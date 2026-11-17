@@ -1,0 +1,66 @@
+Grace registered.
+Bray registered.
+Jesse registered.
+
+=== Sending Messages ===
+Bray received: Hello Bray :)
+Grace sent: Hello Bray :)
+Grace received: Hello Grace :)
+Bray sent: Hello Grace :)
+Grace received: Hello guys :)
+Bray received: Hello guys :)
+Jesse sent: Hello guys :)
+Bray received: How is everyone?
+Jesse received: How is everyone?
+Grace sent: How is everyone?
+
+=== Chat History ===
+
+Chat history for Grace:
+[2026-11-16T16:32:23.441722]Grace: Hello Bray :)
+[2026-11-16T16:32:23.450037]Bray: Hello Grace :)
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+[2026-11-16T16:32:23.450160]Grace: How is everyone?
+
+Chat history for Bray:
+[2026-11-16T16:32:23.441722]Grace: Hello Bray :)
+[2026-11-16T16:32:23.450037]Bray: Hello Grace :)
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+[2026-11-16T16:32:23.450160]Grace: How is everyone?
+
+Chat history for Jesse:
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+[2026-11-16T16:32:23.450160]Grace: How is everyone?
+
+=== Iterator Pattern ===
+Grace's message involving Bray:
+[2026-11-16T16:32:23.441722]Grace: Hello Bray :)
+[2026-11-16T16:32:23.450037]Bray: Hello Grace :)
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+[2026-11-16T16:32:23.450160]Grace: How is everyone?
+
+=== Blocking Messages ===
+Bray blocked Jesse
+Bray has blocked Jesse
+
+=== Undo Last Message ===
+Grace undid their last message.
+Removed message: How is everyone?
+
+=== Chat History After Undo ===
+
+Chat history for Grace:
+[2026-11-16T16:32:23.441722]Grace: Hello Bray :)
+[2026-11-16T16:32:23.450037]Bray: Hello Grace :)
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+
+Chat history for Bray:
+[2026-11-16T16:32:23.441722]Grace: Hello Bray :)
+[2026-11-16T16:32:23.450037]Bray: Hello Grace :)
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+
+Chat history for Jesse:
+[2026-11-16T16:32:23.450100]Jesse: Hello guys :)
+
+=== Unregister User ===
+Jesse unregistered.
